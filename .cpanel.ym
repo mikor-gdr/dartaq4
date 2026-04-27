@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/enterce1/dartaq4/
+    - export DEPLOYPATH=/home/enterce1/dartaq4.entercel.com/
     
