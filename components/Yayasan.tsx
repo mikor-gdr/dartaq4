@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
 import { cn } from "@/lib/lain";
-// import { BG_IMAGE_PATH, PONDOK_PHOTO_PATH } from "@/warna";
 import Datagambar from "@/public/assets/data";
 
 const Yayasan = () => {

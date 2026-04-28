@@ -4,10 +4,12 @@ import Datagambar from "@/public/assets/data";
 import Yayasan from "@/components/Yayasan";
 import Profile from "@/components/Profil";
 import Lembaga from "@/components/Lembaga";
-import Programs from "@/components/Program";
-import { SiTraefikmesh } from "react-icons/si";
-import NewsList from "@/components/NewsList";
-import Stats from "@/components/Trafike";
+// import Programs from "@/components/Program";
+// import { SiTraefikmesh } from "react-icons/si";
+// import ContactForm from "@/components/ContactForm";
+// import Footer from "@/components/Footer";
+// import Stats from "@/components/Trafike";
+import { newsData } from "@/data/news";
 
 export default function Home() {
   return (
@@ -20,8 +22,8 @@ export default function Home() {
         {/*Lembaga*/}
         <Lembaga />
         {/*Program*/}
-        <Programs />
-        <Stats />
+        {/* <Programs /> */}
+        {/* <Stats /> */}
         <section
           id="berita"
           className="py-20 md:py-24 scroll-mt-20 relative overflow-hidden"
@@ -58,8 +60,8 @@ export default function Home() {
                 Darut Taqwa IV
               </p>
             </div>
-
-            {/* <NewsList items={news.slice(0, 6)} /> */}
+            {/* <NewsList items={news.slice } */}
+            {/* <NewsList items={newsData.slice(0, 6)} /> */}
 
             {/* Button Lihat Semua Berita */}
             <div className="mt-12 text-center animate-fade-in-up animate-delay-500">
