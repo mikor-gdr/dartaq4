@@ -2,13 +2,26 @@ import Link from "next/link";
 import Image from "next/image";
 import Datagambar from "@/public/assets/data";
 import Yayasan from "@/components/Yayasan";
+import Profile from "@/components/Profil";
+import Lembaga from "@/components/Lembaga";
+import Programs from "@/components/Program";
+import { SiTraefikmesh } from "react-icons/si";
+import NewsList from "@/components/NewsList";
+import Stats from "@/components/Trafike";
+
 export default function Home() {
   return (
     <>
       <main>
         {/*yayasab*/}
         <Yayasan />
-        {/*gambar*/}
+        {/*profil*/}
+        <Profile />
+        {/*Lembaga*/}
+        <Lembaga />
+        {/*Program*/}
+        <Programs />
+        <Stats />
         <section
           id="berita"
           className="py-20 md:py-24 scroll-mt-20 relative overflow-hidden"
@@ -45,6 +58,7 @@ export default function Home() {
                 Darut Taqwa IV
               </p>
             </div>
+
             {/* <NewsList items={news.slice(0, 6)} /> */}
 
             {/* Button Lihat Semua Berita */}
@@ -71,10 +85,6 @@ export default function Home() {
             </div>
           </div>
         </section>
-
-        <div className="max-w-5xl max-auto relative">
-          {/* <Image src={Datagambar.Hero} alt="hero gmabar" /> */}
-        </div>
       </main>
     </>
   );
