@@ -18,7 +18,7 @@ function page() {
   return (
     <div className="row">
       <div>
-        {posts.map((post) => (
+        {posts.map(post => (
           <div key={post.kode}> {post.nama} </div>
         ))}
       </div>
