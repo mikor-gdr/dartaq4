@@ -33,7 +33,7 @@ export default function Profile() {
             </span>
           </div>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-black mb-4 md:mb-6 text-white animate-fade-in-up animate-delay-200">
-            Profil Yayasan Darut Taqwa IV
+            Profil Darut Taqwa IV
           </h2>
           <div className="w-24 md:w-32 h-1 md:h-1.5 bg-[#009966] mx-auto mb-4 md:mb-6 animate-fade-in-up animate-delay-300"></div>
           <p className="text-base sm:text-lg text-white/80 max-w-2xl mx-auto animate-fade-in-up animate-delay-400">
