@@ -6,7 +6,7 @@ export async function GET() {
     const db = await createConnection();
     const sql = "SELECT * FROM siswa";
     const [posts] = await db.query(sql);
-    return NextResponse.json({ post: posts });
+    return NextResponse.json({ siswa: posts });
   } catch (error) {
     console.log(error);
     return NextResponse.json({ error: error.message });
